@@ -402,6 +402,17 @@
 # output:
 # False
 
+# x="Jeevan%234"
+# print(x.isdigit())
+# output:
+# False
+
+# x="power star"
+# print(x.title())
+# output:
+# Power Star
+
+
 # title()
 # syntax: x.tittle()
 
@@ -421,13 +432,23 @@
 # output:
 # Ma Ro Lix
 
+# x="Mango is my favourite fruit"
+# print(x.title())
+# output:
+# Mango Is My Favourite Fruit
+
+# x="Aman is my TL"
+# print(x.title())
+# output:
+# Aman Is My Tl
+
+
 # istitle():
 # syntax: x.istitle()
 
 
 # x="I Am In The Office"
 # print(x.istitle())
-
 # output:
 # True
 
@@ -437,8 +458,28 @@
 # output:
 # False
 
-# capitalize()
-# syntax: x.capitalize()
+# x="TempleS are thE peaceful places"
+# print(x.istitle())
+# output:
+# False
+
+# x="Peaceful PLaces"
+# print(x.istitle())
+# output:
+# False
+
+
+# x="Computer is a electronic device"
+# print(x.istitle())
+# output:
+# False
+
+
+
+
+#  capitalize()
+#  syntax: x.capitalize()
+
 
 # x="i am jeevan"
 # print(x.capitalize())
@@ -451,12 +492,128 @@
 # output:
 # Ravan is a demaon
 
+# x="JEEVAN IS A SOFTWARE ENGINEER"
+# print(x.capitalize())
+# output:
+# Jeevan is a software engineer
+
+# x="Pincky Tincky Donkey"
+# print(x.capitalize())
+# output:
+# Pincky tincky donkey
+
+
+# x="Humans has best Benfits as compared to Birds"
+# print(x.capitalize())
+# output:
+# Humans has best benfits as compared to birds
+
+
+
+# isalpha():
+# syntax: x.isalpha()
+
 # x="ABCabc"
 # print(x.isalpha())
 # output:
 # True
 
+# x="123ABc"
+# print(x.isalpha())
+# output:
+# False
+
+# x="ABC"
+# print(x.isalpha())
+# output:
+# True
+
+# x="a b c"
+# print(x.isalpha())
+# output:
+# False
+
+# x="123"
+# print(x.isalpha())
+# output:
+# False
+
+
+
+
+# isalnum():
+# syntax: x.isalnum()
+
+
 # x="ACDacd123"
 # print(x.isalnum())
 # output:
 # True
+
+# x="aB$%12"
+# print(x.isalnum())
+# output:
+# False
+
+# x="Jeevan Reddy 123"
+# print(x.isalnum)
+# output:
+# False
+
+# x="Pothula"
+# print(x.isalnum())
+# output:
+# True
+
+# x="123"
+# print(x.isalnum())
+# output:
+# True
+
+# isspace():
+# syntax: x.isspace()
+
+# x=" J E V A N"
+# print(x.isspace())
+# output:
+# False
+
+# x="t/"
+# print(x.isspace())
+# output:
+# False
+
+# x="  "
+# print(x.isspace())
+# output:
+# True
+
+
+
+# 1. input: ram is good boy
+# expected output: boy good is ram 
+
+# x="Ram is good boy".split()
+# y=(x[::-1])
+# print(" ".join(y))
+# output:
+# boy good is Ram
+
+
+# 2.input: ABCDAABBCCDDEEFFGGHI
+# OUTPUT:ABCDEFGHI
+
+
+# x="ABCDAABBCCDDEEFFGGHI"
+# append_list=[]
+# for i in x:
+#     if i not in append_list:
+#         append_list.append(i)
+# print(*append_list)
+# output:
+# A B C D E F G H I
+
+
+
+
+
