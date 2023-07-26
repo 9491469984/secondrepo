@@ -294,3 +294,119 @@
 # print(x)
 # output:
 # 2
+
+
+# pop
+# syntax:
+# list.pop(pos)
+
+# x=["AMAN","JEEVAN","RAMU","SEETHA"]
+# x.pop(-1)
+# print(x)
+# output:
+# ['AMAN', 'JEEVAN', 'RAMU']
+
+# x=["1234",'123','12','1']
+# x.pop()
+# print(x)
+# output:
+# ['1234', '123', '12']
+
+# x=[1,2,3,4,5]
+# x.pop(0)
+# print(x)
+# output:
+# [2, 3, 4, 5]
+
+# x=["344","Aman",456,60]
+# x.pop()
+# x.pop()
+# print(x)
+# output:
+# ['344', 'Aman']
+
+# x=["Mango","30","30","03"]
+# x.pop(1,2)
+# print(x)
+# output:
+# TypeError: pop expected at most 1 argument, got 2
+
+
+
+# insert:
+# syntax:
+# list.insert(pos, elmnt)
+
+
+# fruits = ['apple', 'banana', 'cherry']
+# fruits.insert(1, "orange")
+# print(fruits)
+# output:
+# ['apple', 'orange', 'banana', 'cherry']
+
+
+# x=["123","12","Aman"]
+# x.insert(1,"Jeevan")
+# print(x)
+# output:
+# ['123', 'Jeevan', '12', 'Aman']
+
+
+# x=["123","12",1,4]
+# x.insert(3,12)
+# print(x)
+# output:
+# ['123', '12', 1, 12, 4]
+
+
+# x=["king","ramu","chinna"]
+# y=x.insert(1,"ramu")
+# print(y)
+# output:
+# None
+
+
+# x=["Mango","Ramesh","Vasanth"]
+# x.insert(2,"Karthik")
+# print(x)
+# output:
+# ['Mango', 'Ramesh', 'Karthik', 'Vasanth']
+
+
+# sort:
+# syntax:
+# x.sort()
+
+
+# x=[1,5,7,3,4,5]
+# x.sort()
+# print(x)
+# output:
+# [1, 3, 4, 5, 5, 7]
+
+
+# x=[1,5,7,3,4,5]
+# x.sort(reverse=True)
+# print(x)
+# output:
+# [7, 5, 5, 4, 3, 1]
+
+
+# x=[1,5,7,3,4,5]
+# x.sort(reverse=False)
+# print(x)
+# output:
+# [1, 3, 4, 5, 5, 7]
+
+
+# x=["RAMU","SEETHA","Ramu","seetha"]
+# x.sort()
+# print(x)
+# output:
+# ['RAMU', 'Ramu', 'SEETHA', 'seetha']
+
+# x=["RAMU","SEETHA","Ramu","seetha"]
+# x.sort(reverse=True)
+# print(x)
+# output:
+# ['seetha', 'SEETHA', 'Ramu', 'RAMU']
