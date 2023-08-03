@@ -411,3 +411,83 @@
 # output:
 # ['seetha', 'SEETHA', 'Ramu', 'RAMU']
 
+#pro to take a tuple of numbers from keyboard and print Sum,average
+# x=int(input("Enter the number:"))4
+# z=[]
+# for i in range(x):
+#     y=input("Enter the vales:")
+#     if y.isdigit():
+#         z.append(y)
+# a=tuple(z)
+# sum=0
+# for i in a:
+#     sum+=int(i)
+#     avg=sum//len(a)
+# print(sum)
+# print(avg)
+# output:
+# Enter the number:4
+# Enter the vales:a
+# Enter the vales:1
+# Enter the vales:b
+# Enter the vales:2
+# 3
+# 1
+
+# sort and sorted
+
+# x=[1,6,2,7,3]
+# print(sorted(x))
+# print(x)
+
+# output:
+# [1, 2, 3, 6, 7]
+# [1, 6, 2, 7, 3]
+
+
+# x=(1,9,2,8,7)
+# y=sorted(x)
+# print(y)
+# print(x)
+
+# output:
+# [1, 2, 7, 8, 9]
+# (1, 9, 2, 8, 7)
+
+
+# x="1","2","9","7","8"
+# y=sorted(x)
+# print(x)
+# print(y)
+# print(type(y))
+# print(type(x))
+
+# output:
+# ('1', '2', '9', '7', '8')
+# ['1', '2', '7', '8', '9']
+# <class 'list'>
+# <class 'tuple'>
+
+
+# x={1,2,2,4,3,9,7}
+# y=sorted(x)
+# print(y)
+# output:
+# [1, 2, 3, 4, 7, 9]
+
+
+# x=(1,3,5,2,4)
+# x.sort()
+# print(x)
+# output:
+# AttributeError: 'tuple' object has no attribute 'sort'
+
+
+# x=[1,4,3,6,2]
+# y=x.sort()
+# print(y)
+# print(x)
+# output:
+# None
+# [1, 2, 3, 4, 6]
+
